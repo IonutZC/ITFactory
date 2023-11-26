@@ -1,6 +1,6 @@
 # ex 1
 nume = 'Marian'
-varsta = 18
+varsta = 19
 inaltime = 1.75
 major = False
 # ex 2
