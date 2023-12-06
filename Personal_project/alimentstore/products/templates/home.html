@@ -1,0 +1,19 @@
+<!-- home.html -->
+<body>
+    <h2>Welcome to Aliment Store</h2>
+
+    <!-- Button to navigate to the admin page -->
+    <a href="{% url 'admin:index' %}">
+        <button>Admin</button>
+    </a>
+
+    <!-- Button to navigate to the products page -->
+    <a href="{% url 'product_list' %}">
+        <button>Products</button>
+    </a>
+
+    <!-- Button to navigate to the add product page -->
+    <a href="{% url 'add_product' %}">
+        <button>Add Product</button>
+    </a>
+</body>

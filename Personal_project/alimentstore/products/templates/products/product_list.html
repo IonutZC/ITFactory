@@ -1,0 +1,15 @@
+<!-- products/templates/products/product_list.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product List</title>
+</head>
+<body>
+    <h2>Product List</h2>
+    <ul>
+        {% for product in products %}
+            <li>{{ product.name }} - ${{ product.price }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
